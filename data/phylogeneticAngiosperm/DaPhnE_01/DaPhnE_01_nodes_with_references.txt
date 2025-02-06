@@ -1,0 +1,1212 @@
+Node	Phylogeny_references	Age	Age_references
+Vascular_plants			678, 583
+Lycopodiophyta		383.85	684, 589
+Lycopodiales	684, 1	351	684, 265
+N4		313	684
+N6		258	684
+Lycopodium		76	684
+Isoetopsida		334.65	684, 589
+Selaginellales		310	684
+Isoetales	540, 261	309	684
+Crown_euphyllophytes		413.1	TimeTree (Equisetum – Aster)
+Pteridophyta	580, 508, 125 	364.4	506
+Psilotopsida		305.6	506
+Ophioglossaceae	243	162	507
+Botrychium		57.8	122
+N36		5	605
+N48		359.6	506
+N49		354	506
+Equisetaceae	227	92.45	129, 596
+Hypochaete		19.2	129
+N53		13	129
+Equisetum		18.7	129
+N67		6.7	129
+Leptosporangiatae		323.1	506
+N75		286.2	506
+N76		272.9	506
+Hymenophyllales	251	162	507
+Hymenophyllum		91	251
+Gleicheniales		263.3	506
+N84		227	507
+N87		266.3	506
+Schizaeales		211.6	506
+N90		135.29	507
+Core_Leptosporangiates		220	506
+Salviniales		173.3	506
+Marsileaceae	433	93.02	507
+Salviniaceae	410	89	507
+Azolla		16.3	410
+N105		210.8	506
+N108		182.86	507
+N109		154.82	507
+N114		159	507
+Polypodiales		175.8	506
+N123		144.5	506
+Pteridaceae	"562;"	97.41	561
+N127		92	561
+N133		73.73	367
+Eupolypods		104.7	506
+Eupolypods_II	537	94.5	506
+N140		86.1	507
+Aspleniaceae	636, 560		
+N177		30	479
+Woodsia	537		
+N196		74.1	Timetree (Blechnum – Matteuccia)
+Eupolypods_I		93.6	506
+Dryopteridaceae	359	71	568
+Dryopteris		35.9	568
+N213		27	568
+Dryopteris_filix-mas_agg.		1	568
+Polystichum		6	568
+N237		47.67	561
+N239		43.9	561
+Spermatophyta	22	355	373
+Gymnosperms		366	517
+Cycadales		283	517
+N251		346	517
+N253		298	517
+Pinaceae	95	201	699
+N256		176	699
+N257		156	699
+Pinus	661, 205	90.5	21, 356
+Pinus.subgen.		28	206
+N264		5.5	206
+N272		5	651
+Picea	511	45	60
+N287		93	206, 356
+Larix	565	53.65	675
+N293		114	660
+Tsuga		42.26	244
+N303		274	517
+N304		257	517
+N309		227	TimeTree (Taxus - Thuja)
+Cupressaceae	189, 388	170	389
+N312		123.5	388, 389
+Thuja		40	475, 389
+N316		110.8	388, 389
+N318		92	388, 389
+N320		63.85	388, 389
+Juniperus		50.01	388, 389
+N322		4.9	388
+Gnetales		159	517
+N330		138	517
+N333	588	174.9	371
+N335		167.3	371
+Nymphaeales		114.3	TimeTree (Nypheaceae – Cabombaceae)
+Nymphaeaceae	51	56	685, 343, 716, 53
+Nuphar		40	364
+Nymphaea		17.85	364, 53
+N349		159.5	371
+Austrobaileyales		131.3	Timetree (Schisandraceae – Austrobaileyaceae)
+N355		150.1	371
+Magnoliids		146.6	371
+N359		142	170
+Magnoliales		113	170
+N365		63	170
+N368		82	170
+Laurales		111	170
+N376		39	170
+N381		96	170
+Canellales		99	170
+Piperales		132	170
+Aristolochiaceae		108	685
+N394		96	170
+N398		147.8	371
+Monocotyledonae		134	20
+N401		131	20
+Alismatales		128	20
+Araceae	73	115	279, 443
+N421		86	520
+N423		53.5	520, 437
+N425		22.5	520, 384, 437
+Arum		12.5	384, 153
+N430		125	20
+Tofieldiaceae		90	685, 279
+N434		108	20
+N435		96	20
+N436		84.49	20, 98
+Hydrocharitaceae	616	70.26	279, 98
+Hydrilloideae		44.21	98
+Najas		10.89	98
+N444		34.3	98
+N451		43.25	98
+N453		4.12	98
+N455		0.98	98
+Alismataceae	277, 344, 99	67.2	279, 99
+N462		52.7	99
+Sagittaria		27.71	99
+N467		34.52	99
+N469		26.36	99
+N471		24.04	99
+N472		2.68	99
+Alisma	627	9.61	99
+N480		99	20
+N484		83	20
+Juncaginaceae		52	279
+N490		75	20
+N498		47	20
+Zosteraceae	505	38.5	300
+Potamogetonaceae	682, 266, 357, 267	23	279
+N552		126	20
+N554		124	20
+Dioscoreales		123	20
+Narthecium_ossifragum	409		
+N562		115	20
+Pandanales		109	20
+N570		86	20
+N573		124	20
+Liliales		116	20
+N578		110	20
+N579		106	20
+Melanthiaceae	736	70	646, 279
+Veratrum		13.8	352
+Paris_quadrifolia	282		
+N587		72	20
+Colchicaceae	481	7	127
+N596		86	20
+N597		71	20
+Liliaceae	158, 719	58.5	646, 279
+Lilioideae		28	646
+Lilieae		12.5	268
+Lilium		6.3	268
+Tulipeae		21.5	TimeTree (Tulipa – Lloydia)
+N613		11.3	TimeTree (Tulipa – Erythronium)
+N636		122	20
+Asparagales		118	20
+Orchidaceae	78, 91, 77, 221	80.5	510, 232
+N640		74.5	510, 232
+N642		72.5	510, 232
+N644		64	510, 232
+Orchidoideae		53	510, 232
+Orchideae	"504, 2, 32, 37;"		
+N648		18	510, 232
+Dactylorhiza	246, 489		
+Nigritella	247		
+Ophrys	585		
+Spiranthinae		39	510, 232
+Epidendroideae	536, 180	51	510, 232
+N761		27	510, 232
+Higher_Epidendroideae		42	510, 232
+N795		107	20
+N804		110	20
+N808		104	20
+N810		101	20
+Iridaceae	516, 686, 216, 687, 689, 688	64	217, 216
+N812		50	217, 216
+N836		21.25	217, 216
+Gladiolus		15.45	634
+N843		21	216
+N845		16.5	217, 216
+N858		97	20
+N860		91	20
+N861		50	TimeTree (Hemerocallis – Asphodelus)
+Asphodelus_albus	92		
+N873		60	66, 230
+Alliaceae	639, 181, 442, 350		
+Amerallium		27	230
+N880		11	230
+N885		8.5	230
+N888		55	230
+N889		32	230
+N891		0.6	230
+N894		37	230
+N895		2.1	230
+N898		33	230
+N899		27	230
+N900		4.2	230
+N925		15	230
+N927		13	230
+Amaryllidaceae	223, 407	8.4	213
+Narcissus		8	546
+N950		46.5	213
+N951		43	Timetree (Agave - Muscari), 213
+Hyacinthaceae	484, 379, 396	25	213
+N957	485	18	213
+Agavaceae	307	20	213, 581
+Anthericum		6.89	581
+N1008		36.5	Timetree (Laxmanniaceae - Ruscus), 213
+Asparagaceae	94, 307 		
+N1012		30	213
+Nolinoideae_		16.4	213, 408
+N1019		9.6	408
+N1020		3	408
+Polygonatum		5	408
+N1029		118	20
+N1033		116	20
+Poales		112	20
+N1035		70	213
+Typhaceae	306	59.5	213, 20
+N1052		85	213
+N1054		81	213
+N1056		74	213, 20
+Juncaceae		55	Timetree (Juncus – Luzula)
+Luzula	722		
+Juncus	526, 721		
+Cyperaceae	427	72.2	42, 150
+N1159		60.7	42, 150
+Rhynchospora		3.52	42
+N1163		48	42
+N1164		43.5	42, 150
+Carex	527, 226, 597, 671	36.5	42, 151
+unispicate_Cariceae	"598, 597;"		
+N1170		35	151
+Vignea	249, 168	30.5	151
+Carex.subgen.	250, 672	23.83	226, 151
+N1250		12.9	226
+N1251		11.8	226
+N1253		9.1	226
+N1256		12.3	226
+N1259		10.1	226
+N1261		9	226
+N1263		6.5	226
+N1266		12.1	226
+N1267		11	226
+N1271		9.7	226
+N1273		7.5	226
+N1274		3	226
+N1277		6	226
+N1280		11.6	226
+N1281		10	226
+N1282		6	226
+N1287		8.3	226
+N1290		11.1	226
+N1291		10.2	226
+N1292		9.2	226
+N1295		6.4	226
+N1296		5	226
+N1298		1.8	226
+N1301		1.9	226
+N1304		5.4	226
+N1306		1.9	226
+N1309		7.4	226
+N1312		10.7	226
+N1313		10.2	226
+N1314		9.2	226
+N1316		8.2	226
+N1320		6.4	226
+N1326		9.44	226
+N1327		8.4	226
+N1328		5.8	226
+N1329		1.5	226
+N1332		4.5	226
+N1333		2.3	226
+N1336		2	226
+N1342		7.3	226
+N1343		4.1	226
+Phacocystis	434		
+N1352		2.8	226
+N1370		8.1	226
+Spirostachyae	152, 150		
+N1377		6.8	226
+N1379		5.3	226
+N1380		4.6	226
+Carex_flava_agg.	245	4.8	226
+N1396		28	42
+N1405		9	42
+N1419		47.3	42, 151
+Eleocharis	528, 724		
+N1423		9.2	42
+N1440		32.5	42, 151
+N1446		37	42, 151
+Schoenoplectus		26	42
+N1458		29.1	42, 151
+N1459		18.4	42
+Isolepis	426		
+Cyperus		17	42
+N1468		12.5	42
+N1479		105	20
+N1480		91	20
+N1487		84.9	643, 20, 58
+N1488		71	107
+Poaceae	224, 57	81.4	107, 643, 58
+N1493		80.5	Timetree (Poa - Streptochaeta)
+N1495		69.15	107, 643, 58
+N1497		56.9	643, 58
+N1499		54.6	643, 58
+PACCMAD_clade		42	107, 643
+N1505		27.15	107, 643
+Panicoideae		24.5	107, 643
+Paniceae	12		
+N1510		20.1	107, 643
+Digitaria		5.4	643
+N1515		12.7	107, 58
+Echinochloa		2.6	643
+N1520		13.1	643
+Panicum		9.7	107
+N1522		3.6	107
+Setaria	303	8.3	643
+Andropogoneae	400	11.93	107, 643, 58
+N1541		10.25	107, 643
+N1549		8	643
+Arundineae_p.p._2		23.25	107, 58
+N1557		14.5	107, 643
+Chloridoideae	482	23.75	107, 643
+Eragrostis	270		
+N1582		22	107
+N1583		11	107
+Spartina	5	2.75	96
+Cynodonteae		19.6	107
+N1596		12.3	107
+BEP_clade		50.5	107, 643
+Ehrhartoideae		36	107, 706, 501
+Bambusoideae		40.5	107, 643, 501
+N1619		46	107, 643, 501
+N1621		37.5	107, 501
+Stipeae	530, 239	16.1	58
+N1640		34.5	107, 58
+Meliceae	680	15	107
+Melica		5	107
+N1663		28	107, 643, 501
+Brachypodium	85		
+N1669		25	107, 643, 501
+Triticeae+Bromeae		12.5	107, 643, 501
+Bromus	541, 173		
+Triticeae	218, 376	9.85	89, 107
+Hordeum	45		
+N1721		8.3	156
+N1735		5.35	"89; Wicker T., unpublished (http://www.sbf.admin.ch/htm/dokumentation/publikationen/international/cost/cd2011/cost/C08.0119.html)"
+N1737		4	89
+Poeae+Aveneae	133, 509	17.2	107, 269
+N1756		10	107
+Briza	154		
+Agrostis	538		
+N1836		8	107
+Avena	184, 476		
+Poa	210, 211, 209, 212		
+Alopecurus	132		
+N1954		13.8	269
+Loliinae	86, 269	12.9	269
+N1976		7.2	269
+N1980		3.5	269
+N1982		2.8	269
+Lolium		2.1	269
+N1991		1	269
+N2008		6.3	269
+N2009		2	269
+N2013		5.4	269
+N2014		3.6	269
+N2025		5.6	269
+N2056		3.5	269
+N2058		2.5	269
+N2094		114	20
+Commelinales		107	20
+Zingiberales		78	20
+N2107		70	20
+N2110		75	20
+N2111		61	20
+N2114		70	20
+Dicotyledonae		146.3	371
+Eudicots		135	169
+N2124		117	19
+N2125		110.5	TimeTree (Lardizabalaceae - Ranuculus)
+N2126		107	TimeTree (Lardizabalaceae - Circaeasteraceae)
+N2129		101.6	TimeTree (Menispermaceae - Ranunculus)
+N2131		97.3	TimeTree (Berberidceae - Ranunculus)
+Berberidaceae	316, 658	64.9	658
+N2133		8.1	658
+Ranunculaceae	258, 285, 525, 659	75	19
+N2140		27.57	31
+Thalictrum		7.5	31
+Isopyroideae		21.5	31
+Aquilegia	31	2.54	31
+Adonis	287		
+N2171		46.6	704
+Anemoneae	260, 257	25.99	704
+Clematis	704	5	704
+N2175		3.5	704
+N2185		18.39	726, 704
+Pulsatilla		7.83	726
+Ranunculeae	286, 262, 469, 144	30.95	469, 143
+N2211		26	469, 143
+N2212		19.6	469, 143
+Ranunculus_core_clade		20.65	469, 143
+N2218		2	143
+N2225		13	143
+N2227		6	469, 143
+N2235		4	143
+N2237		2.5	143
+N2315		15	469, 143
+polyanthemos_clade		2.15	469, 143
+N2344		7.65	469, 143
+Ranunculus_montanus_agg.		4	143
+Helleboroideae		41.7	273
+Nigella		17.5	44
+Delphinieae		29.1	273
+N2361		21.97	273, 274
+Consolida	113	8.8	273
+N2364		5.1	273
+Delphinium		3.3	274
+Aconitum		17.94	273, 274
+Helleborus	679, 607		
+Papaveraceae		112.5	19
+Papaveroideae	259, 46, 84		
+Fumarioideae	353, 186		
+Fumarieae	478		
+N2464		124.1	TimeTree (Sabiaceae - Proteaceae)
+Proteales		116.6	TimeTree (Nelumbo - Proteaceae)
+N2468		112.3	TimeTree (Platanus - Proteaceae)
+Platanaceae		52.5	161
+N2475		119.5	TimeTree (Buxus - Aster)
+Buxaceae	648		
+Gunnerales		115	169
+N2487		118.2	TimeTree (Saxifragales - Santalales)
+Saxifragales		116	283
+N2493		103	283, 169
+N2494		97	283, 169
+N2496		81	283
+N2498		75.6	283
+N2500		70	283
+N2503		94.5	283, 169
+N2504		75	169
+Crassulaceae	613, 238, 638, 423, 219, 621, 422	51.7	283
+N2510		40	283
+N2569		70	283
+N2571		65	283
+N2573		51	283
+Haloragaceae	415	7	553
+N2584		81	283
+N2586		74	283
+Grossulariaceae	567, 563		
+Saxifragaceae	586, 115, 640, 587, 590, 727	58	553
+Saxifraga		13.4	523
+N2683		113.7	TimeTree (Vitis - Rosa)
+Vitaceae	446, 723	47.5	446, 723
+Parthenocissus		22.5	446, 723
+Vitis		8	446, 723
+Rosidae		109	169
+Rosids_I/Fabidae		107.2	TimeTree (Zygophyllales - Rosales)
+Zygophyllales		79	657
+N2698		103.1	TimeTree (Viola-Rosa)
+N2699		101.4	TimeTree (Celastrales - Malpighiales)
+Celastraceae	570, 569	81	657
+N2710		99.6	TimeTree (Oxlis-Malpighiales)
+Oxalidales		99.31	372, 657
+N2713		81.25	657, 248
+N2714		68	248
+Oxalidaceae	201, 202	58.5	454
+N2717		12	248
+N2724		38	248
+N2726		25	248
+N2727		16	248
+N2735		74.75	169, 248
+Malpighiales		97.5	124, 169, 657
+N2745		89	TimeTree (Passifloraceae - Salicaceae)
+N2747		51	169
+Violaceae	419, 29, 391, 714, 254, 637	19.35	390
+Plagiostigma		4.4	390
+Viola_p.p.		11.9	392
+N2773		11.65	392
+N2774		10.6	392
+N2793		6.55	392
+Salicaceae	346, 629, 97, 242	55	632
+Populus	240	4.5	271
+N2817		0.8	271
+Salix		40	346
+N2903		86	124
+N2911		69.5	124, 169
+N2917		51.2	124, 169
+Hypericaceae	452, 488	23	451
+N2920		21	451
+N2924		15	451
+N2926		12.5	451
+N2928		5	451
+N2929		4	451
+N2943		3.5	451
+Elatinaceae	123		
+Euphorbiaceae	604, 700, 735, 175, 709	69.5	685
+Euphorbioideae		31	106
+N2967		4	106
+Mercurialis		65.5	290
+N3028		78.8	124, 169
+N3030		70.3	124, 169
+N3031		64.3	124, 169
+Linaceae	404, 405	37.5	405
+N3046		21.1	405
+N3047		1.1	405
+N3057		28.6	405
+N3059		22	405
+N3065		97.7	TimeTree (Fabales-Rosales)
+Fabales		87	657
+N3068		84.5	561, 169
+Fabaceae	358, 139, 695, 697	59	337
+N3071		58.6	337
+N3072		54	337
+N3075		57	337
+Genisteae	299, 119, 464	56	337
+N3078		16.1	298, 337
+Lupinus	4	11.25	298, 418, 571
+N3080		5.45	418, 571
+N3085		5.56	571
+N3088		11	477
+N3089		8	477
+N3094		5	477
+N3108		10.1	477
+N3125		54.3	337
+Millettioids		27.8	337
+N3128		19.2	337
+N3129		13.1	603
+Phaseoleae		1.3	88
+Hologalegina		50.6	337
+Robinioids		34	337
+Loteae	13, 435	24	571
+N3148		19	571
+Lotus		16.62	457
+IRLC		39	337
+N3181		33	337
+Hedysareae	3	25.15	337, 730
+N3184		16	571
+N3190		15.45	696, 571
+Colutea		6	731
+Astragalus	302, 696	12.4	696
+Oxytropis		8.3	696, 731
+N3231		31.15	337, 571
+Trifolieae	600	23	571
+N3233		17.45	401, 571
+Medicago	599	13	571
+Melilotus		3.17	571
+Ononis	631		
+N3258		18	571
+Trifolium	142	29	571
+Vicieae		24.32	337, 571
+Vicia	496, 272, 105, 145		
+Vicia.subgen.		15.27	571
+Lathyrus	304	17	571
+N3403		9.85	571
+N3409		7.27	571
+N3411		0.77	571
+N3416		16.67	571
+N3417		15	571
+N3420		13.46	571
+N3435		66.5	171, 169
+Polygalaceae	480	40.9	171
+N3451		95	TimeTree (Fagales - Rosales) excl. Jeong et al. 1999
+Rosales		81.45	561, 169
+Rosaceae	148, 497	72.5	685, 576
+Rosoideae		54	576
+N3458		39	305
+Rubus	11		
+Colurieae		37	576
+Geum	574, 575	17	576
+N3820		33.3	305, 131
+Rosa	331		
+N3823		4	305
+N3825		4	305
+N3838		2.3	131
+Potentilleae	460, 148, 203, 368, 131	32.95	305, 131
+Potentilliinae		28.85	305, 131
+N3880		20.65	131
+N3887		17.65	131
+N3888		4.9	131
+N3932		27.25	131
+Fragaria	498	1.7	448
+N3935		1.35	448
+N3946		29.75	131
+Sanguisorbeae	341		
+Sanguisorbinae		13.7	305
+N4035		50.5	131
+Spiraeoideae	79, 80, 103, 499, 183, 362		
+N4041		44.45	131, 362
+Amygdaleae	56, 342, 55		
+N4086		44	733
+Spiraea		22.3	733
+Amelanchier		35	362
+N4109		35	362
+Crataegus		10	362
+N4124		42	362
+N4125		39.5	362
+N4126		35	362
+N4129		27	362
+N4131		24	362
+N4176		41	362
+N4181		43.5	362
+N4182		43	362
+Cotoneaster		32	362
+N4185		27.5	362
+N4191		22	362
+N4194		16	362
+N4206		43	362
+Pyrus		23.5	362
+N4212		37.5	362
+N4215		67	169
+N4218		64	521
+Rhamnaceae	522, 50	55	521
+N4222		21	521
+Rhamnus		6.4	521
+Elaeagnaceae		19	521
+N4240		55	169
+Ulmaceae	683, 720		
+N4250		42	169
+Cannabaceae		21	725
+Moraceae	121		
+Morus		30	725
+Urticaceae	236		
+N4279		65	169
+Cucurbitaceae	548, 549	41	548
+Bryonia		8.4	647
+N4294		21	548
+Cucumis		9	548
+N4298		16	548
+N4301		50	169
+Fagales		85	117
+Fagaceae	382, 383	66.5	117
+Quercus		17	381
+N4329		42	169
+N4330		36	169
+N4337		35	169
+Betulaceae	102, 439, 101, 554		
+N4344		22.9	529
+N4346		7.9	529
+Betula		17.55	172
+N4363		107.3	TimeTree (Geraniales - Myrtales)
+Geraniales		97.5	169, 657
+Geraniaceae	166, 30, 165	21.25	467, 166
+Erodium		18.5	165, 7
+N4368		6.81	165
+N4370		2.87	165
+Geranium		14.5	467, 166
+N4412		92	169
+Myrtales		82.4	TimeTree (Combretaceae - Onagraceae)
+Onagraceae	114, 33, 703	81	612, 539
+N4425		62.5	612, 539
+N4426		44.5	41, 539, 703
+Circaea		8.02	41, 703
+N4432		18	612
+Epilobium		15	612
+Oenothera		1	225
+N4513		51	612
+Lythraceae	222		
+N4530		79	612, 539, 169
+N4531		68	612, 539, 169
+N4541		106.8	TimeTree (Crossosomatales - Malvales)
+Crossosomatales		95	169
+N4543		62	169
+N4547		44	169
+N4550		81	169
+Sapindales	190		
+N4564		83	428, 169 
+N4567		65.5	428, 169
+Anacardiaceae	470	45	428
+Rhus	713	38.1	712
+N4575		80.5	428, 169
+Sapindaceae	518, 71	52.5	428
+Acer		46	519
+N4580		44	519
+N4582		4	519
+N4585		13.5	519
+N4592		73.5	428, 169
+Rutaceae	93	69	428
+N4604		91.4	TimeTree (Malvales - Brassicales)
+Malvales		68	169
+Thymelaeaceae	193	17.9	193
+Daphne		5.9	193
+N4621		23	169
+Cistaceae	234	14.5	234
+Fumana		2	234
+N4626		10	233, 234
+Helianthemum		6.3	234
+N4638		5.3	233, 234
+N4641		14	169
+Malvaceae	514, 618, 200		
+N4648		20	329
+Brassicales		85	177
+N4684		55	169
+N4687		71	177
+N4688		60	169
+N4691		58	169
+N4693		54	169
+Limnanthaceae	411		
+N4707		53	394
+Resedaceae	393	10.5	394
+N4719		50	394, 177
+N4721		42	177
+Brassicaceae	668, 26, 325, 118 , 666, 369	37.5	177
+Core_Brassicaceae		32.3	118
+Lineage_I_Franzke_et_al._2011		27.3	118
+Descurainieae		21.2	118, 220
+N4731		13	220
+Lepidieae	61, 737, 432	13.2	118
+N4754		2	431 for Lepidium s.str.
+Cardamineae	178, 611, 440, 48, 354, 81	15.71	431, 47, 34, 715
+N4766		13.53	34, 715
+N4822		22.12	"34; TimeTree (Physaria - Arabidopsis)"
+N4824		21.58	"34; TimeTree (Boechera - Arabidopsis)"
+Erysimeae		8.58	34
+Erysimum		5.08	34
+Camelineae1		12.75	321, 118
+Arabidopsis		0.16	278
+Camelineae2		16.1	118
+N4849		11.28	34
+Camelina		6.6	34
+Capsella	573	3.18	264
+Lineage_III_Franzke_et_al._2011		27.3	34, 177
+N4864		26.39	34
+Alysseae	670, 87	19.3	118
+Iberis		10.1	34
+Malcolmieae		19.8	118
+Cochlearia	322, 324		
+Arabideae	320, 326, 327	16	34, 118, 327
+N4941		7.8	327
+N4952		3.35	327
+Arabis_hirsuta_agg.		1.65	327
+Draba_s.l.	681, 289, 369	2.3	288
+N4981		2.04	100
+Thlaspideae	738, 323, 177	12.45	118, 355
+clade_III_Koch_Mummenhoff_2001		4.4	355
+N5010		1.3	319, 355
+N5012		1.5	355
+N5014		1	355
+N5019		0.5	355
+Lineage_II_Franzke_et_al._2011		29.6	34, 118
+Isatideae		11.2	118
+N5029		19.48	34, 118, 715
+Sisymbrium	667	10.04	34
+Brassiceae	668, 395, 669	18.12	370, 34
+Crambe		14.9	309
+Diplotaxis	395, 149		
+N5098		114.6	TimeTree (Santalales - Caryophyllales)
+N5101		94	645, 169
+N5103		71	645, 169
+Loranthus_europaeus	644		
+Santalaceae	128, 421		
+Thesium		29.8	421
+Viscum		29	645
+Berberidopsidales		100	169
+N5136		111.5	TimeTree (Aster - Caryophyllales)
+Caryophyllales		84	169
+N5138		60	169
+Droseraceae	524	50	710
+Drosera		15	710
+N5156		30	169
+Tamaricaceae	663		
+N5161		37	169
+Plumbaginaceae	361	17.89	361
+N5164		13.5	361
+Limonium		9	361
+N5171		8.5	361
+Polygonaceae	182, 545, 72, 544		
+N5190		30	447
+Fagopyrum		9.6	447
+N5194		25	615
+Rumiceae		23	608
+Rumex	438		
+N5197		15.5	438
+Persicaria	314, 313, 315		
+N5280		84	169
+Caryophyllaceae	163, 241	45.67	424, 176, 635
+Corrigioleae		31.15	424, 176, 635
+N5294		41.75	424, 176, 572, 635
+Paronychieae		29.49	424, 176, 635
+N5303		39.63	424, 635
+Polycarpeae		20.9	635
+N5307		34.94	176, 635
+Sperguleae	577, 579, 578 	25.49	176, 635
+Spergularia		8.53	176, 635
+N5321		32.25	424, 176, 635
+N5322		30.04	176, 635
+Sclerantheae		19.71	176, 635
+N5324		7.52	176
+Scleranthus		2.75	578
+Sagineae		19.01	176, 635
+N5370		31.57	424, 572, 635
+N5371		30.73	424, 572, 635
+N5372		21.24	424, 176, 635
+Caryophylleae		19.05	424, 176, 635
+Saponaria		3.35	176, 635
+N5378		6.88	176, 635
+Gypsophila		5.13	176, 635
+N5390		10.79	635
+Dianthus	635	4.53	635
+N5397		1.35	635
+N5400		2.02	635
+N5401		0.88	635
+N5407		1.01	635
+Sileneae	462, 494, 174, 572, 483	20	424, 176, 572
+Silene_s.l.		13.5	424, 176, 572
+N5418		12.98	176
+N5422		5.59	176, 572
+Viscaria		7.5	176
+Atocion		3.05	176
+N5429		12.99	176, 572, 513
+N5432		5.36	513
+Behenantha		10.5	572
+N5438		5.66	572
+N5448		1.5	572
+Silene.subgen.		4	176, 572
+N5468		29.44	176, 635
+N5471		10.08	424, 176, 635
+N5472		6.72	176, 635
+Cerastium	552, 70, 69		
+N5495		1.51	176, 635
+N5506		0.96	552
+N5526		3.46	176, 635
+Arenarieae		16.36	176, 635
+Arenaria		13	635
+Moehringia		16	635
+Amaranthaceae	134, 292, 430	54.39	106, 293
+N5558		33	293
+Amaranthus	90, 705		
+N5582		51.73	635, 106, 293
+N5585		41.76	635, 106, 293
+N5586		36	293
+Salicornia	295, 291		
+Suaeda		18	106
+N5606		33.73	106, 293
+Bassia	293	18.98	106, 293
+Chenopodium_s.l.	294, 185		
+Blitum		26.29	106, 293
+N5643		29.7	294, 635, 106, 293
+Atriplex	294, 718	12.85	106, 293
+N5653		6.93	294
+N5654		4.68	294
+N5667		3	294
+N5669		1	294
+N5674		5.2	294
+N5675		4.22	294
+N5701		54	24
+N5708		21	169
+Aizoaceae	318		
+N5720		52	24
+N5723		42	24
+Montiaceae	23, 453	20	24
+N5732		38.4	24
+N5734		23.6	169, 24
+Portulaca_oleracea	453		
+Cactaceae		2.6	377
+Asteridae		110.7	TimeTree (Cornales - Asterales)
+Cornales		103.19	553, 702
+N5746		97.5	553
+N5747		79.05	553, 702
+Hydrangeaceae		49.31	553, 702
+Philadelphus		20.24	228
+Cornaceae	155	62.65	701, 553, 702
+N5767		53.3	702
+Ericales		103	65, 553
+N5772		60	64, 281
+Balsaminaceae	280		
+Impatiens		2.3	281
+N5784		99	64, 553
+Polemoniaceae	502	70	495
+N5802		65	711
+N5804		58	711
+N5806		47	711
+Primulaceae	18, 297		
+Androsace	559, 664, 59	34.9	59
+N5814		31.9	59
+N5816		14.9	59
+N5819		7.4	59
+N5820		4.5	59
+N5822		2.5	59
+N5825		5.2	59
+N5826		3	59
+N5830		4.1	59
+N5832		2.9	59
+N5834		1	59
+N5842		36.5	711
+Primula	116, 628, 398, 399		
+N5844		33	711
+N5868		23	711
+Soldanella	729	0.62	729
+Myrsinaceae		32	711
+Cyclamen		12.7	711
+Lysimachieae		23.5	711
+N5885		20	711
+Anagallis	380		
+Lysimachia	17, 328	15	711
+N5905		95	64, 349
+N5914		83.5	64, 553
+N5919		96	349
+N5921		90	349
+Ericaceae	333, 179, 334, 335, 348, 215, 208	89	493
+Pyroleae	360		
+Arbutoideae		30.2	255
+N5947		72	349, 493
+N5949		50	493
+N5956		69.63	413, 493
+N5957		63	493
+Rhododendron	195, 215	39.25	413
+N5959		22	413
+Empetrum		5.5	493
+Erica	490		
+Vaccinioideae		53	493
+N5993		46	493
+Vaccinium	335, 500	28	493
+asterid_I		102.1	TimeTree (Asterales - Boraginaceae)
+N6012		94.5	64
+Boraginaceae	336, 385	88.5	420, 385
+N6015		81	420, 385
+Boraginoideae		47.5	385
+N6019		37	385
+N6020		35	385
+N6025		33.5	385
+N6026		22.5	385
+Myosotis	694, 693, 677		
+N6060		46.5	385
+Lithospermeae	676	34	385
+N6062		23	385
+N6067		29	385
+Onosma		5.5	385
+Echium		15.3	385
+Boragineae	336, 256, 564		
+N6082		23.6	385
+Pulmonaria	"317;"		
+N6101		33.5	385
+N6102		31.5	385
+Anchusa		30	385
+N6115		6.9	385
+Gentianales		69	717, 67
+Rubiaceae	436, 591	20.8	445, 65
+N6138		12	445
+N6191		9	445
+N6224		68	65
+Gentianaceae	263, 649, 606, 650, 386, 387, 414, 157		
+Chironieae		22.1	386
+Blackstonia		9.4	386
+Centaurium		14.2	386
+N6276		6.3	649
+N6299		67	TimeTree (Loganiaceae - Apocynaceae)
+N6301		66.9	manual adjustment
+Apocynaceae	566	54	512
+N6307		29	512
+N6312		83.6	TimeTree (Lamiales - Solanales)
+Lamiales	550		
+N6315		67.1	TimeTree (Oleaceae - Plantaginaceae)
+Oleaceae	656		
+Jasminum		30.68	340
+N6326		57.2	444, 340, 43
+N6327		22.77	444, 340, 347
+N6333		50.32	339, 340, 43
+Fraxinus		24	443
+N6339		33	43
+N6347		67	444, 64
+Lamiaceae	301, 691, 654		
+Mentheae	214, 63, 416, 140	46.5	140
+N6376		22.5	140
+N6380		8	140
+N6382		2.5	140
+Mentha		8.5	140
+N6420		15.25	140
+N6424		10.5	140
+Salviinae	655	34	140
+N6439		18	140
+N6441		9.5	140
+N6453		32	140
+N6460		26.5	140
+N6462		12.5	140
+N6467		34.5	140
+Ocimeae	468		
+Lamioideae_s.str.	551, 39		
+Lamium	38		
+Lentibulariaceae	284, 126		
+Orobanchaceae	698, 40	44.4	698
+Orobanche	378, 558, 465	33.9	698
+N6635		33.9	698
+Pedicularis	708, 515, 707	11.7	698
+Rhinanthoideae	619		
+N6668		25	698
+N6686		22.22	698, 231
+Euphrasia	231	7.93	231
+N6690		7.1	231
+N6701		5.9	231
+N6702		5.2	231
+N6710		3.6	231
+Phrymaceae		40	443
+Plantaginaceae	10		
+Antirrhineae	207, 642, 162	24.5	162
+Linaria		11.5	162
+N6752		8	162
+N6756		4	162
+N6758		2	162
+N6783		7.25	641
+Antirhinum		4.1	641
+N6791		35	104
+Plantagineae	532, 162		
+Plantago		17	104
+N6795		15	104
+N6810		7	104
+Veroniceae	8, 9, 429		
+N6840		9.9	652
+Digitalis	62, 252		
+Globularia		2.45	112, 622
+Callitricheae		18.9	345
+Callitriche	486		
+Scrophulariaceae	461, 617	37	120
+N6915		35.93	555
+Scrophularia		28.56	555
+N6957		67.73	"TimeTree (Solanaceae - Convolvulaceae); 492"
+Convolvulaceae	601, 199, 406, 602		
+Solanaceae	458, 459, 109	27.25	463, 130
+Nicotiana		9.65	630
+Solanoideae	397	25	463, 130
+N6993		15.98	130, 630
+Lycium		11.5	463
+Hyoscymeae		12.78	630
+N7003		22.25	463, 130, 630
+Physalis		12	463
+Solanum	49, 674	15	492
+N7013		13.25	487, 492
+N7017		14	492
+asterid_II		101.1	TimeTree (Aquifoliales - Asterales)
+N7033		77	64
+N7038		93.7	TimeTree (Asterales - Dipsacales)
+Asterales		77	308
+Campanulaceae	141, 466, 533, 52, 235, 534		
+Lobelia		16	503
+Campanuloidae		24.5	534, 503, 734
+N7049		18	534, 734
+N7054		16.85	534, 734
+Rapunculus-clade		14.75	534, 503, 734
+N7056		12.75	534, 734
+N7058		9	534
+N7062		8	534
+N7066		3.5	534
+N7068		1	534
+N7072		8.5	534
+N7074		7	534
+N7078		6	734
+Campanula_s.str.		12.25	534, 503, 734
+N7107		3	534
+N7121		76.25	TimeTree (Asteraceae - Menyanthaceae)
+Menyanthaceae	623	55	623
+N7125		56.85	TimeTree (Asteraceae - Goodeniaceae)
+N7127		49.5	TimeTree (Asteraceae - Calyceraceae)
+Asteraceae	187, 188	35.5	TimeTree (Barnadesioideae - Asteroideae)
+N7145		33.5	308
+Cardueae	"237, 197, 196, 198, 610, 609;167, 54 Cichorieae"	25.85	614, 662
+Echinops	543		
+Arctium	366	2.6	365
+N7187		15	308
+N7192		4	662
+N7233			Barres et al. unpublished, cited in 425
+N7241		13.06	Barres et al. unpublished, cited in 425
+N7249		2.37	425
+N7278		27.8	TimeTree (Cichorium - Senecio)
+Cichorioideae		24.25	308, 728
+Scorzonerinae		11.5	728
+Tragopogon	403		
+Scorzonera	402, 690	5	728
+N7309		20.25	308, 626, 728
+Cichorium		1.5	728
+Hieraciinae	159, 108, 160	6.5	728
+Lactucinae	330, 332	11.5	728
+N7502		7	728
+Sonchus	310, 311		
+Hypochaeridinae	626, 542	14	728
+N7532		8.5	728
+N7538		6.6	626
+N7556		17.5	728
+N7557		12.5	728
+Taraxacum		0.5	728
+Crepis	147		
+N7577		5.5	728
+N7598		5.5	728
+Chondrillinae		8	728
+Chondrilla		2	728
+Asteroideae		25.25	308, 653
+Senecioneae	474, 473, 449		
+Doronicum	14		
+N7652		13	653
+Senecioninae		10.5	653
+N7691		3.9	111, 110
+N7693		3.25	110
+N7694		1.67	110
+Gnaphalieae	192, 665, 191		
+N7772		21	164
+Astereae	68	13.6	164
+N7778		7.3	164
+Erigeron	450		
+Anthemideae	456, 535, 363		
+Artemisia	673, 624, 471, 472	23.75	625, 547
+N7833		22.5	625
+N7834		17.5	625
+N7836		9.25	625, 547
+N7840		1.5	547
+N7843		6.5	625
+N7846		19.75	625, 547
+N7847		14	625, 547
+N7848		6	625, 547
+N7851		8.5	625
+N7852		2.5	625
+N7856		4.5	625
+N7860		17.25	625, 547
+N7865		17	625
+N7870		4	547
+N7874		16	455, 535
+Matricariinae		11	455
+Achillea	229		
+Anthemidinae		13	455, 535
+Anthemis_s.l.		12	455, 535
+N7910		7	535
+N7915		10	455, 535
+N7919		8	455, 535
+Tanacetum		12.9	455
+N7933		15	455
+Leucantheminae		8	455
+N7949		13	455
+N7950		11	455
+Inuleae	16, 15, 146		
+Coreopsideae	312		
+Bidens	194		
+N8006		14.75	308, 106
+N8016		12.5	308
+Heliantheae	412, 633, 28, 27		
+Ambrosiinae	412, 633, 28		
+Helianthus		4.95	556
+Milleriinae	204		
+Eupatorieae	557	8.1	557
+N8068		91.9	TimeTree (Apiales - Dipsacales)
+N8071		84	64
+N8075		67.5	TimeTree (Pittosporaceae - Apiaceae)
+N8077		61.5	TimeTree (Apiaceae - Araliaceae)
+Araliaceae	491, 76		
+Apiaceae	138, 137		
+N8087		58.05	296
+Saniculoideae		46.95	296
+Saniculeae		40.45	296
+Astrantia	74	10	296
+N8098		24.4	296
+N8099		11.55	296
+Eryngium	75	3.75	296
+Bupleurum	441		
+N8151		52	594
+Oenantheae	592, 136, 593, 374, 531		
+N8169		35	592
+N8178		44.4	594
+Scandiceae	135, 338		
+N8197		18.25	594
+Chaerophyllum		13	594
+N8205		2	594
+Daucinae		23	594
+Tordylieae		25	594
+Tordyliinae	138		
+Selineae	595, 6	20.5	594, 351
+Angelica		12	351
+Pimpinella	375		
+Careae		27.5	594
+Apieae		20.5	594
+N8330		7	594
+N8333		7.5	594
+Adoxaceae	732, 275, 276	75.5	35, 417
+Viburnum		23.5	417
+N8351		48	35, 417
+Sambucus		14	417
+N8361		81.5	35
+Caprifoliaceae	732, 620, 692	44.5	35, 582
+N8364		38.5	35
+Lonicera		28	582
+N8367		7.5	584
+N8371		25	582
+N8388		67.78	35
+N8390		66	35
+N8392		61.15	35
+Dipsacaceae	692, 25, 83	29.21	35, 417, 82
+Scabiosa		9	82
+N8398		0.4	82
+Valerianaceae	253, 36	22.15	35
+Valerianella		16.5	417
+N8435		14	417
+N8436		5.5	417
+N8442		18.5	417
+Valeriana		17	417
+N8449		8	417
+N8451		5	417
+N8456		7.5	417
