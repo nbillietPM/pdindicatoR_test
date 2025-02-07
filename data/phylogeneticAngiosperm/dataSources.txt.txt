@@ -1,7 +1,0 @@
-The list of invasive species was obtained from the following repository
-	https://github.com/trias-project/alien-plants-belgium
-
-Phylogenetic tree obtained from Steven Janssens (Plantentuin Meise). Associated article 
-	https://bdj.pensoft.net/article/39677/
-	DOI: 10.3897/BDJ.8.e39677
-

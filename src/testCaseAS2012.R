@@ -76,19 +76,62 @@ PDcubeToCSV <- function(PDcube, filename){
   })
   
   # Write the entire dataframe to CSV, including the modified list columns
-  write.csv(PDcube, paste("data/PDcubes/", filename), row.names = FALSE)
+  write.csv(PDcube, paste("data/PDcubes/", filename, ""), row.names = FALSE)
 }
-PDcubeToCSV(PD_cube, "nativePDcubeAST2012.csv")
 
-"
+PDcubeToCSV(PD_cube, " nativePDcubeAST2012.csv")
+
 csvToPDcube <- function(filename){
-  cubeDF <- read.csv(paste("data/PDcubes/", filename))
-  
+  #Read in the CSV file
+  pdCube <- read.csv(paste("data/PDcubes/", filename))
+  #The file has condensed the original list into concatenated strings separated with a ','
+  #Reconstruct the original elements by splitting and subsequently casting as a vector
+  pdCube$specieskeys <- lapply(lapply(pdCube$specieskeys, function(el){strsplit(el, ",")}), 
+                               function(list){as.integer(unlist(list))})
+  pdCube$ott_ids <- lapply(lapply(pdCube$ott_ids, function(el){strsplit(el, ",")}), 
+                           function(list){as.integer(unlist(list))})
+  pdCube$unique_names <- lapply(lapply(pdCube$unique_names, function(el){strsplit(el, ",")}),
+                                unlist)
+  pdCube$orig_tiplabels <- lapply(lapply(pdCube$orig_tiplabels, function(el){strsplit(el, ",")}),
+                                  unlist)
+  return(pdCube)
 }
 
-Write a function that converts the csv format of the PD cube back to the useable format
-"
 
+pdCube <- csvToPDcube("nativePDcubeAST2012.csv")
+belgiumShapefile <- st_read('data/grid/be_1km.shp')
+belgiumBorder <- st_read('data/grid/be.shp')
+
+pdGeoCube <- right_join(belgiumShapefile, pdCube,
+                        by = join_by("CELLCODE" == "eeacellcode"))
+
+pd_min <- min(pdGeoCube$PD, na.rm = TRUE)
+pd_max <- max(pdGeoCube$PD, na.rm = TRUE)
+pd_mean <- mean(pdGeoCube$PD)
+pd_dev <- sd(pdGeoCube$PD)
+
+pdGeoCube$normalizedPD <- unlist(lapply(pdGeoCube$PD, function(val){(val-pd_min)/(pd_max-pd_min)}))
+pdGeoCube$standardizedPD <- unlist(lapply(pdGeoCube$PD, function(val){(val-pd_mean)/pd_dev}))
+
+sum(is.na(pdGeoCube$normalizedPD))
+sum(is.nan(unlist(pdGeoCube$normalizedPD)))
+world <- rnaturalearth::ne_countries(scale = "medium", returnclass = "sf")
+world_3035 <- sf::st_transform(world, crs = 3035)
+
+plots <- list()
+indicators <- list()
+
+taxon=NULL
+
+mapPD <- ggplot() +
+         geom_sf(data = pdGeoCube, mapping=aes(fill=.data$normalizedPD)) +
+         ggplot2::scale_fill_viridis_c(option = "B")+
+         geom_sf(data = belgiumBorder, fill = NA, color = "white", linewidth = 0.5)
+mapPD
+
+png('img/AST2012Belgie.png',type='cairo', units = 'px', width = 6000, height = 4000, res = 600)
+plot(mapPD)
+dev.off()
 
 
 "
