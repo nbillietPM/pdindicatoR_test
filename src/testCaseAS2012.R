@@ -125,7 +125,7 @@ taxon=NULL
 
 mapPD <- ggplot() +
          geom_sf(data = pdGeoCube, mapping=aes(fill=.data$normalizedPD)) +
-         ggplot2::scale_fill_viridis_c(option = "B")+
+         ggplot2::scale_fill_viridis_c(option = "turbo")+
          geom_sf(data = belgiumBorder, fill = NA, color = "white", linewidth = 0.5)
 mapPD
 
