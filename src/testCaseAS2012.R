@@ -10,61 +10,77 @@ angiospermTree2012 <- read.tree("data/phylogeneticAngiosperm/DaPhnE_01/DaPhnE_01
 if (file.exists("data/taxonMatch/AST2012.csv")==FALSE){
   matchedAST2012 <- taxonmatch(angiospermTree2012)
   write.csv(matchedAST2012, "data/taxonMatch/AST2012.csv")
-}
-else {
+} else {
   matchedAST2012 <- read.csv("data/taxonMatch/AST2012.csv", header=TRUE, sep=",")
 }
 
 matched_nona <- matchedAST2012 %>%
   dplyr::filter(!is.na(gbif_id))
 head(matched_nona)
+"
+> head(matched_nona)
+  X        search_string          unique_name approximate_match     score ott_id is_synonym flags number_matches gbif_id        orig_tiplabel
+1 1           abies_alba           Abies alba              TRUE 0.9000000 887363      FALSE                    1 2685484           Abies_alba
+2 2        abies_grandis        Abies grandis              TRUE 0.9230769 343179      FALSE                    2 2685361        Abies_grandis
+3 3   abies_nordmanniana   Abies nordmanniana              TRUE 0.9444444 876306      FALSE                    1 2685552   Abies_nordmanniana
+4 4       abies_veitchii       Abies veitchii              TRUE 0.9285714 648452      FALSE                    1 2685400       Abies_veitchii
+5 5 abutilon_theophrasti Abutilon theophrasti              TRUE 0.9500000 854500      FALSE                    1 3152614 Abutilon_theophrasti
+6 6      acacia_dealbata      Acacia dealbata              TRUE 0.9333333 274405      FALSE                    2 2979474      Acacia_dealbata
+"
 
 dataCube <- read.csv("data/cubes/nativeAngioCube.csv", header=TRUE, sep = "\t")
-
+head(dataCube)
+"
+> head(dataCube)
+year   eeacellcode specieskey              species establishmentmeans degreeofestablishment pathway occurrences distinctobservers
+1 2025 1kmE3801N3134    3105380     Carlina vulgaris                                               NA           1                 1
+2 2025 1kmE3801N3135    3109086  Senecio inaequidens                                               NA           1                 1
+3 2025 1kmE3828N3148    5377060     Lepidium didymum                                               NA           1                 1
+4 2025 1kmE3828N3149    2888728       Sambucus nigra                                               NA           1                 1
+5 2025 1kmE3828N3149    3109086  Senecio inaequidens                                               NA           1                 1
+6 2025 1kmE3828N3149    7736011 Claytonia perfoliata                                               NA           1                 1
+"
 mcube <- append_ott_id(angiospermTree2012,dataCube, matched_nona)
+nrow(mcube)
+"
+> nrow(mcube)
+[1] 5365854
+"
 head(mcube)
+"
+> head(mcube)
+  year   eeacellcode specieskey              species establishmentmeans degreeofestablishment pathway occurrences distinctobservers  ott_id
+1 2025 1kmE3801N3134    3105380     Carlina vulgaris                                               NA           1                 1 1066139
+2 2025 1kmE3801N3135    3109086  Senecio inaequidens                                               NA           1                 1  901730
+3 2025 1kmE3828N3148    5377060     Lepidium didymum                                               NA           1                 1  237117
+4 2025 1kmE3828N3149    2888728       Sambucus nigra                                               NA           1                 1 1042130
+5 2025 1kmE3828N3149    3109086  Senecio inaequidens                                               NA           1                 1  901730
+6 2025 1kmE3828N3149    7736011 Claytonia perfoliata                                               NA           1                 1  883489
+           unique_name        orig_tiplabel
+1     Carlina vulgaris     Carlina_vulgaris
+2  Senecio inaequidens  Senecio_inaequidens
+3     Lepidium didymum    Coronopus_didymus
+4       Sambucus nigra       Sambucus_nigra
+5  Senecio inaequidens  Senecio_inaequidens
+6 Claytonia perfoliata Claytonia_perfoliata
+"
 
 check_completeness(mcube)
 
 mcube <- mcube %>%
   dplyr::filter(!is.na(ott_id))
 
-head(mcube)
-
-mcube$species %in% angiospermTree2012$tip.label
+nrow(mcube)
 "
-> mcube$species %in% angiospermTree2012$tip.label
-   [1] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
-  [20] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
-  [39] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
-"
-head(mcube$species)
-"
-> head(mcube$species)
-[1] "Carlina vulgaris"     "Senecio inaequidens"  "Lepidium didymum"     "Sambucus nigra"       "Senecio inaequidens" 
-[6] "Claytonia perfoliata"
-"
-head(angiospermTree2012$tip.label)
-"
-> head(angiospermTree2012$tip.label)
-[1] "Huperzia_selago"           "Lycopodiella_inundata"     "Lycopodium_clavatum"       "Lycopodium_annotinum"     
-[5] "Diphasiastrum_zeilleri"    "Diphasiastrum_tristachyum"
+> nrow(mcube)
+[1] 5011075
 "
 
 #Substitution of the _ character in the tip labels needs to happen
 angiospermTree2012$tip.label <- lapply(angiospermTree2012$tip.label, function(label) {gsub(" ", "_", label)})
-mcube$species %in% angiospermTree2012$tip.label
-"
-> mcube$species %in% angiospermTree2012$tip.label
-   [1]  TRUE  TRUE FALSE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE FALSE  TRUE  TRUE  TRUE
-  [20]  TRUE FALSE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE
-  [39] FALSE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE FALSE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE
-  [58]  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE
-"
 mcube <- mcube[mcube$species %in% angiospermTree2012$tip.label,]
 
 PD_cube <- get_pd_cube(mcube, angiospermTree2012, metric = "faith")
-
 
 PDcubeToCSV <- function(PDcube, filename){
   # Identify the columns that are stored as lists in the dataframe
